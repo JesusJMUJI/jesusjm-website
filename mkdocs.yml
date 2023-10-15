@@ -1,6 +1,9 @@
 site_name: Tutoriales para el Grado de Videojuegos
 theme:
   name: material
+  font: 
+    text: Inclusive Sans
+    code: Chivo Mono
   features:
     - navigation.tabs
     - navigation.sections
