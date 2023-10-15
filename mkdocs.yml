@@ -1,8 +1,9 @@
 site_name: Tutoriales para el Grado de Videojuegos
 theme:
   name: material
+  font: Lato
   icon: 
-  repo: fontawesome/brands/github
+    repo: fontawesome/brands/github
   features:
     - navigation.tabs
     - navigation.sections
