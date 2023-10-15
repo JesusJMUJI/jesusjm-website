@@ -33,7 +33,8 @@ Según Overleaf, no debería afectar a los usuarios debido a tiempos de compilac
 Así que, este tutorial te enseñará a instalar un compilador de LaTeX en tu ordenador, con dos opciones dependiendo de lo que prefieras. Medianteel uso de [VSCode](https://code.visualstudio.com/) y [MikTex](https://miktex.org/download) o Tex Live, distribuido con [TinyTex](https://github.com/rstudio/tinytex-releases).
 También se da la opción de usar [TexWorks](#texworks), el cual viene incluido en MikTex y TexLive y es más sencillo de usar que VSCode.
 
-También
+Si ves ualquier error en la página o quieres dejar alguna sugerencia, puedes escribir un issue en el repositorio de Github: <https://github.com/JesusJMUJI/jesusjm-website> o mandarme un mensaje privado por Discord. 
+
 ??? warning "Aviso"
     Este tutorial asume que el lector dispone de conocimientos básicos sobre instalación y entendimiento sobre como usar VSCode e instaladores complejos. No obstante, se intentará explicar de la forma más sencilla posible. Además, se requiere de entender el inglés, ya que la mayoría de los programas están en inglés.
 
