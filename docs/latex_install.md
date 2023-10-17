@@ -1,7 +1,22 @@
-# Instalación de LaTeX en Windows
+# Instalación local de LaTeX en Windows como alternativa a Overleaf
 
+??? info "Versión: 1.0.2 (17/10/2023)"
+    Lista de cambios:
+
+    * Añadido un aviso de que la página está en construcción.
+    * Añadir versión actual. 
+    * Añadir reglas horizontales para separar secciones.
+
+## &darr; POR FAVOR LEE ESTE AVISO &darr;
+!!! warning "PÁGINA EN COSTRUCCION"
+    Planeo añadir nuevas herramientas y cambios a esta página, asi que se considera como no finalizada.
+    ## Los siguientes cambios serán:
+    * Añadir a la lista de opciones [TexStudio](https://www.texstudio.org/).
+    * Simplificar todavía el proceso de instalación.
+        * *Probablemente se cambie el tutorial para priorizar la instalación de TexStudio por ser más fácil de usar.*
+    * Añadir una sección para usar GitHub con LaTeX, y por extensión, GitHub Desktop.
 ## Índice
-!!! Nota "Nota"
+!!! question "Nota"
     Puedes navegar cómodamente por el tutorial usando los botones de la barra de navegación de la izquierda.
 
 * [Pretexto](#pretexto)
@@ -38,6 +53,8 @@ Si ves ualquier error en la página o quieres dejar alguna sugerencia, puedes es
 ??? warning "Aviso"
     Este tutorial asume que el lector dispone de conocimientos básicos sobre instalación y entendimiento sobre como usar VSCode e instaladores complejos. No obstante, se intentará explicar de la forma más sencilla posible. Además, se requiere de entender el inglés, ya que la mayoría de los programas están en inglés.
 
+---
+
 ### Requisitos
 #### Obligatorio
 * [VSCode](https://code.visualstudio.com/)
@@ -45,7 +62,7 @@ Si ves ualquier error en la página o quieres dejar alguna sugerencia, puedes es
 * [MikTex](https://miktex.org/download)
 * [Strawberry Perl](https://strawberryperl.com/)
 
-??? note "Por qué MikTex con Strawberry Perl"
+??? quote "Por qué MikTex con Strawberry Perl"
     Recomiendo encarecidamente usar MikTex con Strawberry Perl, ya que, aunque requiera más pasos; el nstalador de TinyTex está roto en mi ordenador y no he podido arreglarlo. Para no dar información errónea, he decidido explicar como instalar MikTex con Strawberry Perl, ya que es el método que he usado para instalar LaTeX en mi ordenador. 
     Auqnue si prefiere TexLive o funciona en tu ordenador, sigue el tutorial de [TinyTex](#instalación-con-tinytex)
 
@@ -54,6 +71,8 @@ Si ves ualquier error en la página o quieres dejar alguna sugerencia, puedes es
 #### Opcional
 * [Github Desktop](https://desktop.github.com/)
 * [TinyTex](https://github.com/rstudio/tinytex-releases)
+
+*****
 
 ## Instalación con MikTex
 #### VSCode
@@ -106,6 +125,8 @@ Una vez instalado, !ya esta! Puedes usar Latex-Workshop.
 
 #### Post-instalación de MikTex y Strawberry Perl
 Dirigete a [Latex-Workshop](#latex-workshop) para continuar con la instalación de Latex-Workshop.
+
+----
 
 ## Instalación con TinyTex
 
@@ -190,6 +211,8 @@ Simplemente compila varias veces el documento hasta que aparezcan, esto es una l
 En el menú superior de VSCode, presiona: "File -> Preferences -> Settings" y en el buscador escribe: "latex-workshop". Aparecerán todas las opciones de configuración de Latex-Workshop.
 
 Si necesitas algún ajuste específico puedes buscarlo en la documentación de Latex-Workshop: <https://github.com/James-Yu/LaTeX-Workshop/wiki>
+
+---
 
 ## TexWorks
 Si no te gusta VSCode o prefieres algo más sencillo. , puedes usar Texworks, el cual es un editor de LaTeX con un visor de PDF integrado. Viene incluido tanto MikTex como TexLive, así que no necesitas instalar nada más.
