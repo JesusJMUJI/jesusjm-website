@@ -16,20 +16,28 @@ theme:
     - content.code.annotation
     - content.code.copy
     - navigation.footer
+    - content.action.edit
+    - content.action.view
   language: es
+  icon:
+    repo: fontawesome/brands/github
   palette:
-    - scheme: default
+    - media: '(prefers-color-scheme: light)'
+      scheme: slate
       toggle:
-        icon: material/toggle-switch-off-outline
-        name: dark
-      primary: blue
-      accent: light blue
-    - scheme: slate
-      toggle:
-        icon: material/toggle-switch
+        icon: material/lightbulb-on
         name: light
       primary: slate
       accent: indigo
+      
+    - media: '(prefers-color-scheme: dark)'
+      scheme: default
+      toggle:
+        icon: material/moon-waxing-crescent
+        name: dark
+      primary: blue
+      accent: light blue
+      
 
 markdown_extensions:
   - attr_list
@@ -47,10 +55,14 @@ markdown_extensions:
   - pymdownx.superfences
   - pymdownx.mark
   - attr_list
-  - pymdownx.emoji:
-      emoji_index: !!python/name:materialx.emoji.twemoji
-      emoji_generator: !!python/name:materialx.emoji.to_svg
 
+repo_url: https://github.com/JesusJMUJI/jesusjm-website
+repo_name: Tutoriales Grado Videojuegos
 
 copyright: |
   &copy; 2023 <a href="https://github.com/JesusJMUJI"  target="_blank" rel="noopener">Jesús JM</a>
+
+plugins:
+  - git-revision-date-localized:
+      enable_creation_date: true
+  - search

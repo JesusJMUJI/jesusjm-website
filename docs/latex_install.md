@@ -1,21 +1,33 @@
 # Instalación local de LaTeX en Windows como alternativa a Overleaf
 
-??? info "Versión: 1.0.2 (17/10/2023)"
-    Lista de cambios:
+??? info "Versión actual: 1.0.3 (17/10/2023)"
+
+    * Añadidos iconos para editar la página.
+    * Añadidos enlaces a la página de GitHub.
+    * Añadido una fecha de edición al final de la página.
+    * Aclarar panel de novedades.
+
+??? info "Versiones anteriores"
+    Lista de cambios (1.0.2):
 
     * Añadido un aviso de que la página está en construcción.
     * Añadir versión actual. 
     * Añadir reglas horizontales para separar secciones.
 
 ## &darr; POR FAVOR LEE ESTE AVISO &darr;
+
 !!! warning "PÁGINA EN COSTRUCCION"
     Planeo añadir nuevas herramientas y cambios a esta página, asi que se considera como no finalizada.
     ## Los siguientes cambios serán:
+
     * Añadir a la lista de opciones [TexStudio](https://www.texstudio.org/).
     * Simplificar todavía el proceso de instalación.
         * *Probablemente se cambie el tutorial para priorizar la instalación de TexStudio por ser más fácil de usar.*
     * Añadir una sección para usar GitHub con LaTeX, y por extensión, GitHub Desktop.
+    * Resaltar en negrita las palabras principales siguiendo el criterio de lectura.
+
 ## Índice
+
 !!! question "Nota"
     Puedes navegar cómodamente por el tutorial usando los botones de la barra de navegación de la izquierda.
 
