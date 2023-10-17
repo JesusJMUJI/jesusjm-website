@@ -63,6 +63,6 @@ copyright: |
   &copy; 2023 <a href="https://github.com/JesusJMUJI"  target="_blank" rel="noopener">Jesús JM</a>
 
 plugins:
+  - search
   - git-revision-date-localized:
       enable_creation_date: true
-  - search
