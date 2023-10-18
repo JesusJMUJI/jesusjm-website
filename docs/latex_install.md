@@ -6,13 +6,13 @@
     * Añadidos enlaces a la página de GitHub.
     * Añadido una fecha de edición al final de la página.
     * Aclarar panel de novedades.
+    ---
+    ??? info "Versiones anteriores"
+        Lista de cambios (1.0.2):
 
-??? info "Versiones anteriores"
-    Lista de cambios (1.0.2):
-
-    * Añadido un aviso de que la página está en construcción.
-    * Añadir versión actual. 
-    * Añadir reglas horizontales para separar secciones.
+        * Añadido un aviso de que la página está en construcción.
+        * Añadir versión actual. 
+        * Añadir reglas horizontales para separar secciones.
 
 ## &darr; POR FAVOR LEE ESTE AVISO &darr;
 
