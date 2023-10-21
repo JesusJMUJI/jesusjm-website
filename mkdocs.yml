@@ -8,7 +8,7 @@ theme:
     - navigation.tabs
     - navigation.sections
     - navigation.path
-    - toc.integrate
+    # - toc.integrate
     - navigation.top
     - search.suggest
     - search.highlight
@@ -40,6 +40,10 @@ theme:
       
 
 markdown_extensions:
+  - toc:
+      permalink: true
+      separator: "_"
+      title: "Tabla de contenidos"
   - attr_list
   - md_in_html
   - pymdownx.superfences

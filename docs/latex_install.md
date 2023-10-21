@@ -1,13 +1,25 @@
+---
+hide:
+    - navigation
+icon: material/format-text
+---
+
+
 # Instalación local de LaTeX en Windows como alternativa a Overleaf
+!!! info "Versión actual: 1.0.4 (21/20/2023)"
 
-??? info "Versión actual: 1.0.3 (17/10/2023)"
+    * Informar de futuro cambio de documentación a [TexStudio](https://www.texstudio.org/).
+    * Cambiar la tabla de contenidos a la derecha.
 
-    * Añadidos iconos para editar la página.
-    * Añadidos enlaces a la página de GitHub.
-    * Añadido una fecha de edición al final de la página.
-    * Aclarar panel de novedades.
-    ---
     ??? info "Versiones anteriores"
+        
+        Lista de cambios (1.0.3):
+
+        * Añadidos iconos para editar la página.
+        * Añadidos enlaces a la página de GitHub.
+        * Añadido una fecha de edición al final de la página.
+        * Aclarar panel de novedades.
+
         Lista de cambios (1.0.2):
 
         * Añadido un aviso de que la página está en construcción.
@@ -17,10 +29,15 @@
 ## &darr; POR FAVOR LEE ESTE AVISO &darr;
 
 !!! warning "PÁGINA EN COSTRUCCION"
-    Planeo añadir nuevas herramientas y cambios a esta página, asi que se considera como no finalizada.
-    ## Los siguientes cambios serán:
 
-    * Añadir a la lista de opciones [TexStudio](https://www.texstudio.org/).
+    Planeo añadir nuevas herramientas y cambios a esta página, asi que se considera como no finalizada.
+
+    **Los siguientes cambios principales serán:**
+
+    * **Añadir a la lista de opciones [TexStudio](https://www.texstudio.org/).**
+    * **Cambiar la opción principal para nuevos a TexStudio con MikTex.**
+    * **Descartar TinyTex como alternativa debido a que MikTex con TexStudio son mejores opciones y más simples.**
+    ---
     * Simplificar todavía el proceso de instalación.
         * *Probablemente se cambie el tutorial para priorizar la instalación de TexStudio por ser más fácil de usar.*
     * Añadir una sección para usar GitHub con LaTeX, y por extensión, GitHub Desktop.
@@ -29,7 +46,7 @@
 ## Índice
 
 !!! question "Nota"
-    Puedes navegar cómodamente por el tutorial usando los botones de la barra de navegación de la izquierda.
+    Puedes navegar cómodamente por el tutorial usando los enlaces a la derecha en ordenador, en el botón de arriba a la izquierda si estás en móvil.
 
 * [Pretexto](#pretexto)
 * [Requisitos](#requisitos)
@@ -225,6 +242,11 @@ En el menú superior de VSCode, presiona: "File -> Preferences -> Settings" y en
 Si necesitas algún ajuste específico puedes buscarlo en la documentación de Latex-Workshop: <https://github.com/James-Yu/LaTeX-Workshop/wiki>
 
 ---
+
+## TexStudio
+!!! warning "Cambio de documentación a TexStudio"
+    He estado probando TexStudio como alternativa a Latex-Workshop, y honestamente, me está gustando más que Latex-Workshop. Así que, en un futuro, cambiaré la documentación a TexStudio.
+
 
 ## TexWorks
 Si no te gusta VSCode o prefieres algo más sencillo. , puedes usar Texworks, el cual es un editor de LaTeX con un visor de PDF integrado. Viene incluido tanto MikTex como TexLive, así que no necesitas instalar nada más.
