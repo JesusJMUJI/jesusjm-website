@@ -2,12 +2,11 @@ site_name: Tutoriales para el Grado de Videojuegos
 theme:
   name: material
   font: 
-    text: Inclusive Sans
-    code: Chivo Mono
+    text: Lexend Deca
+    code: JetBrains Mono
   features:
     - navigation.tabs
     - navigation.sections
-    - navigation.path
     # - toc.integrate
     - navigation.top
     - search.suggest
@@ -27,7 +26,7 @@ theme:
       toggle:
         icon: material/lightbulb-on
         name: light
-      primary: slate
+      primary: deep purple
       accent: indigo
       
     - media: '(prefers-color-scheme: dark)'
@@ -37,7 +36,7 @@ theme:
         name: dark
       primary: blue
       accent: light blue
-      
+
 
 markdown_extensions:
   - toc:
@@ -47,6 +46,9 @@ markdown_extensions:
   - attr_list
   - md_in_html
   - pymdownx.superfences
+  - pymdownx.tabbed:
+      alternate_style: true
+      combine_header_slug: true
   - pymdownx.highlight:
       anchor_linenums: true
   - pymdownx.inlinehilite
@@ -58,7 +60,6 @@ markdown_extensions:
   - pymdownx.details
   - pymdownx.superfences
   - pymdownx.mark
-  - attr_list
 
 repo_url: https://github.com/JesusJMUJI/jesusjm-website
 repo_name: Tutoriales Grado Videojuegos
@@ -71,3 +72,4 @@ plugins:
   - search
   - git-revision-date-localized:
       enable_creation_date: true
+  - glightbox
