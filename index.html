@@ -18,7 +18,7 @@
     
     
       
-        <title>Tutoriales para el Grado de Videojuegos</title>
+        <title>Página principal - Tutoriales para el Grado de Videojuegos</title>
       
     
     
@@ -39,8 +39,8 @@
         
         
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Inclusive+Sans:300,300i,400,400i,700,700i%7CChivo+Mono:400,400i,700,700i&display=fallback">
-        <style>:root{--md-text-font:"Inclusive Sans";--md-code-font:"Chivo Mono"}</style>
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lexend+Deca:300,300i,400,400i,700,700i%7CJetBrains+Mono:400,400i,700,700i&display=fallback">
+        <style>:root{--md-text-font:"Lexend Deca";--md-code-font:"JetBrains Mono"}</style>
       
     
     
@@ -51,7 +51,18 @@
     
     
     
-  </head>
+   <link href="assets/stylesheets/glightbox.min.css" rel="stylesheet"/><style>
+        html.glightbox-open { overflow: initial; height: 100%; }
+        .gslide-title { margin-top: 0px; user-select: text; }
+        .gslide-desc { color: #666; user-select: text; }
+        .gslide-image img { background: white; }
+        
+            .gscrollbar-fixer { padding-right: 15px; }
+            .gdesc-inner { font-size: 0.75rem; }
+            body[data-md-color-scheme="slate"] .gdesc-inner { background: var(--md-default-bg-color);}
+            body[data-md-color-scheme="slate"] .gslide-title { color: var(--md-default-fg-color);}
+            body[data-md-color-scheme="slate"] .gslide-desc { color: var(--md-default-fg-color);}
+            </style> <script src="assets/javascripts/glightbox.min.js"></script></head>
   
   
     
@@ -61,7 +72,7 @@
     
     
     
-    <body dir="ltr" data-md-color-scheme="slate" data-md-color-primary="slate" data-md-color-accent="indigo">
+    <body dir="ltr" data-md-color-scheme="slate" data-md-color-primary="deep-purple" data-md-color-accent="indigo">
   
     
     
@@ -73,7 +84,7 @@
     <div data-md-component="skip">
       
         
-        <a href="#pagina_principal" class="md-skip">
+        <a href="#novedades" class="md-skip">
           Saltar a contenido
         </a>
       
@@ -120,7 +131,7 @@
     
     
     
-    <input class="md-option" data-md-color-media="(prefers-color-scheme: light)" data-md-color-scheme="slate" data-md-color-primary="slate" data-md-color-accent="indigo"  aria-label="light"  type="radio" name="__palette" id="__palette_1">
+    <input class="md-option" data-md-color-media="(prefers-color-scheme: light)" data-md-color-scheme="slate" data-md-color-primary="deep-purple" data-md-color-accent="indigo"  aria-label="light"  type="radio" name="__palette" id="__palette_1">
     
       <label class="md-header__button md-icon" title="light" for="__palette_2" hidden>
         <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 6a6 6 0 0 1 6 6c0 2.22-1.21 4.16-3 5.2V19a1 1 0 0 1-1 1h-4a1 1 0 0 1-1-1v-1.8c-1.79-1.04-3-2.98-3-5.2a6 6 0 0 1 6-6m2 15v1a1 1 0 0 1-1 1h-2a1 1 0 0 1-1-1v-1h4m6-10h3v2h-3v-2M1 11h3v2H1v-2M13 1v3h-2V1h2M4.92 3.5l2.13 2.14-1.42 1.41L3.5 4.93 4.92 3.5m12.03 2.13 2.12-2.13 1.43 1.43-2.13 2.12-1.42-1.42Z"/></svg>
@@ -239,7 +250,24 @@
   
     
   
-  Instalación local de LaTeX en Windows como alternativa a Overleaf
+  Instalación de LaTeX con TexStudio
+
+      </a>
+    </li>
+  
+
+      
+        
+  
+  
+  
+    <li class="md-tabs__item">
+      <a href="vscode_taex/" class="md-tabs__link">
+        
+  
+    
+  
+  Instalación de LaTeX con VSCode
 
       </a>
     </li>
@@ -305,8 +333,6 @@
       <input class="md-nav__toggle md-toggle" type="checkbox" id="__toc">
       
       
-        
-      
       
         <label class="md-nav__link md-nav__link--active" for="__toc">
           
@@ -341,8 +367,6 @@
   
   
   
-    
-  
   
     <label class="md-nav__title" for="__toc">
       <span class="md-nav__icon md-icon"></span>
@@ -351,9 +375,43 @@
     <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
       
         <li class="md-nav__item">
-  <a href="#instalacion_local_de_latex_en_windows" class="md-nav__link">
-    Instalación local de LaTeX en Windows
+  <a href="#novedades" class="md-nav__link">
+    NOVEDADES
   </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#aviso" class="md-nav__link">
+    &darr; AVISO &darr;
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#instalacion_local_de_latex_en_windows_como_alternativa_a_overleaf" class="md-nav__link">
+    Instalación local de LaTeX en Windows como alternativa a Overleaf
+  </a>
+  
+    <nav class="md-nav" aria-label="Instalación local de LaTeX en Windows como alternativa a Overleaf">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#instalacion_local_de_latex_con_texstudio" class="md-nav__link">
+    Instalación local de LaTeX con TexStudio
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#instalacion_local_de_latex_con_vscode_y_tinytex" class="md-nav__link">
+    Instalación local de LateX con VSCode y TinyTex
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
   
 </li>
       
@@ -377,7 +435,26 @@
     <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="m18.5 4 1.16 4.35-.96.26c-.45-.87-.91-1.74-1.44-2.18C16.73 6 16.11 6 15.5 6H13v10.5c0 .5 0 1 .33 1.25.34.25 1 .25 1.67.25v1H9v-1c.67 0 1.33 0 1.67-.25.33-.25.33-.75.33-1.25V6H8.5c-.61 0-1.23 0-1.76.43-.53.44-.99 1.31-1.44 2.18l-.96-.26L5.5 4h13Z"/></svg>
   
   <span class="md-ellipsis">
-    Instalación local de LaTeX en Windows como alternativa a Overleaf
+    Instalación de LaTeX con TexStudio
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="vscode_taex/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Instalación de LaTeX con VSCode
   </span>
   
 
@@ -396,7 +473,7 @@
               
                 
               
-              <div class="md-sidebar md-sidebar--secondary" data-md-component="sidebar" data-md-type="toc" hidden>
+              <div class="md-sidebar md-sidebar--secondary" data-md-component="sidebar" data-md-type="toc" >
                 <div class="md-sidebar__scrollwrap">
                   <div class="md-sidebar__inner">
                     
@@ -407,8 +484,6 @@
   
   
   
-    
-  
   
     <label class="md-nav__title" for="__toc">
       <span class="md-nav__icon md-icon"></span>
@@ -417,9 +492,43 @@
     <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
       
         <li class="md-nav__item">
-  <a href="#instalacion_local_de_latex_en_windows" class="md-nav__link">
-    Instalación local de LaTeX en Windows
+  <a href="#novedades" class="md-nav__link">
+    NOVEDADES
   </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#aviso" class="md-nav__link">
+    &darr; AVISO &darr;
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#instalacion_local_de_latex_en_windows_como_alternativa_a_overleaf" class="md-nav__link">
+    Instalación local de LaTeX en Windows como alternativa a Overleaf
+  </a>
+  
+    <nav class="md-nav" aria-label="Instalación local de LaTeX en Windows como alternativa a Overleaf">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#instalacion_local_de_latex_con_texstudio" class="md-nav__link">
+    Instalación local de LaTeX con TexStudio
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#instalacion_local_de_latex_con_vscode_y_tinytex" class="md-nav__link">
+    Instalación local de LateX con VSCode y TinyTex
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
   
 </li>
       
@@ -454,11 +563,71 @@
   
 
 
-<h1 id="pagina_principal">Página principal<a class="headerlink" href="#pagina_principal" title="Permanent link">&para;</a></h1>
-<p>Página creada para los estudiantes del Grado de Videojuegos.</p>
+  <h1>Página principal</h1>
+
+<h2 id="novedades">NOVEDADES<a class="headerlink" href="#novedades" title="Permanent link">&para;</a></h2>
+<details class="info">
+<summary>Versión actual: 1.1.0 (22/20/2023)</summary>
+<ul>
+<li>Rediseñada la página principal para contener la lista de cambios y el aviso.</li>
+<li>Rediseñado el tutorial de instalación de MikTex.</li>
+<li>Cambio de recomendación principal de VSCode a TexStudio.</li>
+<li>Cambio de recomendación de compilador de TexLive a MikTex.</li>
+</ul>
+<details class="info">
+<summary>Versiones anteriores</summary>
+<p>Lista de cambios (1.0.4):</p>
+<ul>
+<li>Informar de futuro cambio de documentación a <a href="https://www.texstudio.org/">TexStudio</a>.</li>
+<li>Cambiar la tabla de contenidos a la derecha.</li>
+</ul>
+<p>Lista de cambios (1.0.3):</p>
+<ul>
+<li>Añadidos iconos para editar la página.</li>
+<li>Añadidos enlaces a la página de GitHub.</li>
+<li>Añadido una fecha de edición al final de la página.</li>
+<li>Aclarar panel de novedades.</li>
+</ul>
+<p>Lista de cambios (1.0.2):</p>
+<ul>
+<li>Añadido un aviso de que la página está en construcción.</li>
+<li>Añadir versión actual. </li>
+<li>Añadir reglas horizontales para separar secciones.</li>
+</ul>
+</details>
+</details>
+<hr />
+<h2 id="aviso">&darr; AVISO &darr;<a class="headerlink" href="#aviso" title="Permanent link">&para;</a></h2>
+<div class="admonition warning">
+<p class="admonition-title">PÁGINA EN COSTRUCCION</p>
+<p>Planeo añadir nuevas herramientas y cambios a esta página, asi que se considera como no finalizada.</p>
+<ul>
+<li>Simplificar el proceso de instalación.</li>
+<li>Añadir una sección para usar GitHub con LaTeX, y por extensión, GitHub Desktop.</li>
+<li>Resaltar en negrita las palabras principales siguiendo el criterio de lectura.</li>
+</ul>
+</div>
+<hr />
+<h2 id="instalacion_local_de_latex_en_windows_como_alternativa_a_overleaf">Instalación local de LaTeX en Windows como alternativa a Overleaf<a class="headerlink" href="#instalacion_local_de_latex_en_windows_como_alternativa_a_overleaf" title="Permanent link">&para;</a></h2>
+<div class="admonition note">
+<p class="admonition-title">Pretexto</p>
+<p>He creado este tutorial debido a los recientes cambios en <a href="https://www.overleaf.com/blog/changes-to-free-compile-timeouts-and-servers">Overleaf</a> de los cambios en tiempo de compilación. 
+Según Overleaf, no debería afectar a los usuarios debido a tiempos de compilación más rápidos; sin embargo, el tutorial asume que desconfías de Overleaf.</p>
+<p>Así que, este tutorial te enseñará a instalar un compilador de LaTeX en tu ordenador, con dos opciones dependiendo de lo que prefieras. Medianteel uso de <a href="https://code.visualstudio.com/">VSCode</a> y <a href="https://miktex.org/download">MikTex</a> o Tex Live, distribuido con <a href="https://github.com/rstudio/tinytex-releases">TinyTex</a>.
+También se da la opción de usar <a href="#texworks">TexWorks</a>, el cual viene incluido en MikTex y TexLive y es más sencillo de usar que VSCode.</p>
+<p>Si ves ualquier error en la página o quieres dejar alguna sugerencia, puedes escribir un issue en el repositorio de Github: <a href="https://github.com/JesusJMUJI/jesusjm-website">https://github.com/JesusJMUJI/jesusjm-website</a> o mandarme un mensaje privado por Discord. </p>
+<details class="warning">
+<summary>Aviso</summary>
+<p>Este tutorial asume que el lector dispone de conocimientos básicos sobre instalación y entendimiento sobre como usar VSCode e instaladores complejos. No obstante, se intentará explicar de la forma más sencilla posible. Además, se requiere de entender el inglés, ya que la mayoría de los programas están en inglés.</p>
+</details>
+</div>
 <ul>
 <li>
-<h2 id="instalacion_local_de_latex_en_windows"><a href="latex_install/">Instalación local de LaTeX en Windows</a><a class="headerlink" href="#instalacion_local_de_latex_en_windows" title="Permanent link">&para;</a></h2>
+<h3 id="instalacion_local_de_latex_con_texstudio"><a href="latex_install/">Instalación local de LaTeX con TexStudio</a><a class="headerlink" href="#instalacion_local_de_latex_con_texstudio" title="Permanent link">&para;</a></h3>
+<p><a class="md-button" href="latex_install/#texstudio">Button</a></p>
+</li>
+<li>
+<h3 id="instalacion_local_de_latex_con_vscode_y_tinytex"><a href="vscode_taex/">Instalación local de LateX con VSCode y TinyTex</a><a class="headerlink" href="#instalacion_local_de_latex_con_vscode_y_tinytex" title="Permanent link">&para;</a></h3>
 </li>
 </ul>
 
@@ -467,7 +636,7 @@
   <small>
     
       Última actualización:
-      <span class="git-revision-date-localized-plugin git-revision-date-localized-plugin-date">October 21, 2023</span>
+      <span class="git-revision-date-localized-plugin git-revision-date-localized-plugin-date">October 22, 2023</span>
       
         <br>
         Creado:
@@ -510,13 +679,13 @@
         
         
           
-          <a href="latex_install/" class="md-footer__link md-footer__link--next" aria-label="Siguiente: Instalación local de LaTeX en Windows como alternativa a Overleaf">
+          <a href="latex_install/" class="md-footer__link md-footer__link--next" aria-label="Siguiente: Instalación de LaTeX con TexStudio">
             <div class="md-footer__title">
               <span class="md-footer__direction">
                 Siguiente
               </span>
               <div class="md-ellipsis">
-                Instalación local de LaTeX en Windows como alternativa a Overleaf
+                Instalación de LaTeX con TexStudio
               </div>
             </div>
             <div class="md-footer__button md-icon">
@@ -555,11 +724,11 @@
     </div>
     
     
-    <script id="__config" type="application/json">{"base": ".", "features": ["navigation.tabs", "navigation.sections", "navigation.path", "navigation.top", "search.suggest", "search.highlight", "content.tabs.link", "content.code.annotation", "content.code.copy", "navigation.footer", "content.action.edit", "content.action.view"], "search": "assets/javascripts/workers/search.f886a092.min.js", "translations": {"clipboard.copied": "Copiado al portapapeles", "clipboard.copy": "Copiar al portapapeles", "search.result.more.one": "1 m\u00e1s en esta p\u00e1gina", "search.result.more.other": "# m\u00e1s en esta p\u00e1gina", "search.result.none": "No se encontraron documentos", "search.result.one": "1 documento encontrado", "search.result.other": "# documentos encontrados", "search.result.placeholder": "Teclee para comenzar b\u00fasqueda", "search.result.term.missing": "Falta", "select.version": "Seleccionar versi\u00f3n"}}</script>
+    <script id="__config" type="application/json">{"base": ".", "features": ["navigation.tabs", "navigation.sections", "navigation.top", "search.suggest", "search.highlight", "content.tabs.link", "content.code.annotation", "content.code.copy", "navigation.footer", "content.action.edit", "content.action.view"], "search": "assets/javascripts/workers/search.f886a092.min.js", "translations": {"clipboard.copied": "Copiado al portapapeles", "clipboard.copy": "Copiar al portapapeles", "search.result.more.one": "1 m\u00e1s en esta p\u00e1gina", "search.result.more.other": "# m\u00e1s en esta p\u00e1gina", "search.result.none": "No se encontraron documentos", "search.result.one": "1 documento encontrado", "search.result.other": "# documentos encontrados", "search.result.placeholder": "Teclee para comenzar b\u00fasqueda", "search.result.term.missing": "Falta", "select.version": "Seleccionar versi\u00f3n"}}</script>
     
     
       <script src="assets/javascripts/bundle.aecac24b.min.js"></script>
       
     
-  </body>
+  <script>document$.subscribe(() => {const lightbox = GLightbox({"touchNavigation": true, "loop": false, "zoomable": true, "draggable": true, "openEffect": "zoom", "closeEffect": "zoom", "slideEffect": "slide"});})</script></body>
 </html>
