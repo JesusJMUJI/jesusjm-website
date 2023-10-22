@@ -2,17 +2,20 @@ site_name: Tutoriales para el Grado de Videojuegos
 theme:
   name: material
   font: 
-    text: Lexend Deca
+    text: Lexend Deca # Inter Tight
     code: JetBrains Mono
   features:
     - navigation.tabs
     - navigation.sections
+    - navigation.indexes
     # - toc.integrate
+    - toc.follow
+    - navigation.tracking
     - navigation.top
     - search.suggest
     - search.highlight
     - content.tabs.link
-    - content.code.annotation
+    - content.code.annotate
     - content.code.copy
     - navigation.footer
     - content.action.edit
@@ -60,6 +63,8 @@ markdown_extensions:
   - pymdownx.details
   - pymdownx.superfences
   - pymdownx.mark
+  - pymdownx.tasklist:
+      custom_checkbox: true
 
 repo_url: https://github.com/JesusJMUJI/jesusjm-website
 repo_name: Tutoriales Grado Videojuegos
@@ -73,3 +78,8 @@ plugins:
   - git-revision-date-localized:
       enable_creation_date: true
   - glightbox
+
+nav:
+  - Página Principal: index.md
+  - Instalación de LaTeX con Miktex y TexStudio: latex_install.md
+  - Instalación de LaTeX con VSCode y MikTex : latex_vscode.md

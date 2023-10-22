@@ -10,18 +10,21 @@ title: Instalación de LaTeX con TexStudio
 !!! question "Nota"
     Puedes navegar cómodamente por el tutorial usando los enlaces a la derecha en ordenador, en el botón de arriba a la izquierda si estás en móvil.
 
-* [Pretexto](#pretexto) 
+* [Pretexto](#pretexto)
 * [Requisitos](#requisitos)
 * [Instalación con MikTex y TexStudio](#instalación-con-miktex-y-texstudio)
     * [MikTex](#miktex)
     * [TexStudio](#texstudio)
-    * [TexWorks](#texworks) 
+    * [TexWorks](#texworks)
 
 ---
 
 ### Requisitos
+
 #### Obligatorio
+
 * [MikTex](https://miktex.org/download)
+
 + [TexStudio](https://www.texstudio.org/)
 
 ---
@@ -30,9 +33,9 @@ title: Instalación de LaTeX con TexStudio
 
 ### MikTex
 
-Para **instalar** MikTex, **dirigete** a su página web: <https://miktex.org/download>. Es más, MikTex **ofrece** un **tutorial de instalación** el cual hare referencia en esta página, aunque puedes **consultarlo** en cualquier momento aquí: <https://miktex.org/howto/install-miktex>.
+Para **instalar** MikTex, **dirígete** a su página web: <https://miktex.org/download>. Es más, MikTex **ofrece** un **tutorial de instalación** el cual se hará referencia en esta página, aunque puedes **consultarlo** en cualquier momento aquí: <https://miktex.org/howto/install-miktex>.
 
-Si quieres descargar MikTex directamente, puedes usar este enlace: 
+Si quieres descargar MikTex directamente, puedes usar este enlace:
 
 [Descargar MikTex](https://miktex.org/download/ctan/systems/win32/miktex/setup/windows-x64/basic-miktex-23.10-x64.exe){.md-button}
 
@@ -40,7 +43,7 @@ Para instalar MikTex paso a paso:
 
 1. Deja seleccionado `Install MikTex only for me` y presiona `Next`.
 2. Mantén el directorio de instalación por defecto y presiona `Next`.
-3. **Recomiendo** dejar la opción en vez de `Ask me first` por `Always` en  `Install missing packages on-the-fly`, para que se **instalen** los paquetes **automáticamente** si al compilar un documento falta ese paquete.
+3. **Recomiendo** dejar la opción en vez de `Ask me first` por `Always` en `Install missing packages on-the-fly`, para que se **instalen** los paquetes **automáticamente** si al compilar un documento falta ese paquete.
 4. En `Review`, **comprueba** que las **opciones** son las **mismas** que en la cuarta imagen de abajo y presiona `Start` para comenzar la instalación.
 
 === "Proceso en imágenes"
@@ -55,7 +58,7 @@ Desde aquí puedes instalar, actualizar y desinstalar paquetes de MikTex de form
 
 También **recomiendo, al menos,** abrir una vez *MikTex Console* para que se actualicen los repositorios de paquetes de MikTex.
 
-??? info "Instalar todos los paquetes disponibles en MikTex (avanzado)"
+??? tip "Instalar todos los paquetes disponibles en MikTex (avanzado)"
 
     Si prefieres instalar **TODOS** los paquetes disponibles con MikTex tienes que hacer lo siguiente:
 
@@ -68,6 +71,7 @@ También **recomiendo, al menos,** abrir una vez *MikTex Console* para que se ac
     7. Cuando el botón "Cancel" cambie a "Close", significa que todo el proceso ha finalizado. Cierra MikTex Console para proceder a instalar Perl.
 
 ### TeXStudio
+
 Si has leído esta guía anteriormente, es posible que recuerdes que recomendé instalar VSCode. Después de probar TexStudio, he decidido cambiar la recomendación a TexStudio, ya que es más sencillo de usar y no requiere tantos pasos como Latex-Workshop.
 
 Para **instalar** TexStudio, **dirigete** a su página web: <https://www.texstudio.org/>. El enlace de descarga directa es este:
@@ -79,6 +83,7 @@ Para instalar TexStudio solo necesitas confirmar la ruta de instalación y presi
 ![Alt text](Pictures/texstudio.png){data-gallery="texstudio"}
 
 #### Uso de TexStudio
+
 TexStudio puede ser un poco amenazador al principio debido a la gran cantidad de opciones que dispone. Si en cualquier momento necesitas **ayuda** o no sabes cómo hacer algo, puedes utilizar la ayuda de TexStudio, la cual **se encuentra en** `Ayuda -> Ayuda de TexStudio` o pulsando `F1`. (1) Recomiendo echar un vistazo por los menús, ya que hay demasiadas funciones como para explicarlas en profuncidad.
 {.annotate}
 
@@ -113,16 +118,19 @@ El sistema de interfaz de TexStudio es similar a LibreOffice y OpenOffice. En la
 3. \cite{bibliografia}, \ref{etiqueta}, \label{etiqueta}
 
 ##### Compilar un documento
-Los comandos de compilacion de tanto el documento, como de bibliografía, índices, etc. se encuentran en la barra superior de TexStudio.
+
+Los comandos de compilación de tanto el documento, como de bibliografía, índices, etc. se encuentran en la barra superior de TexStudio.
 
 ![Alt text](Pictures/TexStudio/comp.png){data-gallery="texstudio"}
 
 ##### Sugerencias de código
+
 En cualquier momento o al escribir `\`, TexStudio sugerirá comandos de LaTeX. Puedes navegar por las sugerencias con las flechas del teclado y seleccionar la sugerencia con `Enter`.
 También puedes invocar de nuevo las sugerencias con `Ctrl+Space`.
 
 ##### Commandos automáticos (Wizards)
-TexStudio dispone de comandos automáticos para tareas sencillas como crear imágenes o tablas. 
+
+TexStudio dispone de comandos automáticos para tareas sencillas como crear imágenes o tablas.
 
 ![Alt text](Pictures/TexStudio/wizards.png){data-gallery="texstudio"}
 
@@ -138,10 +146,13 @@ TexStudio dispone de comandos automáticos para tareas sencillas como crear imá
 
     ![alttext](Pictures/TexStudio/tabular.png){data-gallery="texstudio"}
 
+---
+
 ### TexWorks
+
 Si prefieres algo más sencillo, puedes usar Texworks, el cual es un editor de LaTeX con un visor de PDF integrado. Viene incluido tanto MikTex como TexLive, así que no necesitas instalar nada más.
 
 ![TexWorks](Pictures/texworks.png)
 
-TexWorks es un editor de LaTeX mucho más sencillo que VSCode, pero soporta la mayoría de funciones de LaTex-Workshop. No explicaré en profuncidad, tiene una interfaz muy sencilla y cualquier problema se puede soluccionar con el manual incluido el cual puedes encontrar en: 
+TexWorks es un editor de LaTeX mucho más sencillo que VSCode, pero soporta la mayoría de las funciones de LaTex-Workshop. No explicaré en profundidad, tiene una interfaz muy sencilla y cualquier problema se puede solucionar con el manual incluido el cual puedes encontrar en:
 <http://people.whitman.edu/~balofba/m497s16/TeXWorks.pdf>
