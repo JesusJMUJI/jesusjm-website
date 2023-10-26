@@ -17,7 +17,6 @@ theme:
     - content.tabs.link
     - content.code.annotate
     - content.code.copy
-    - navigation.footer
     - content.action.edit
     - content.action.view
   language: es
@@ -44,7 +43,6 @@ theme:
 markdown_extensions:
   - toc:
       permalink: true
-      separator: "_"
       title: "Tabla de contenidos"
   - attr_list
   - md_in_html
@@ -81,5 +79,7 @@ plugins:
 
 nav:
   - Página Principal: index.md
-  - Instalación de LaTeX con Miktex y TexStudio: latex_install.md
-  - Instalación de LaTeX con VSCode y MikTex : latex_vscode.md
+  - Latex: 
+      - Introducción a LaTeX: latex_index.md
+      - Instalación de LaTeX con Miktex y TexStudio: latex_install.md
+      - Instalación de LaTeX con VSCode y MikTex : latex_vscode.md
