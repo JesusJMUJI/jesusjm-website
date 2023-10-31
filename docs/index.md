@@ -1,7 +1,7 @@
 ---
 hide:
-    - navigation
     - toc
+    - navigation
 icon: material/home
 title: Página principal
 ---
