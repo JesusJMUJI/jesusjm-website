@@ -1,9 +1,9 @@
 site_name: Tutoriales para el Grado de Videojuegos
 theme:
   name: material
-  font: 
-    text: Lexend Deca # Inter Tight
-    code: JetBrains Mono
+  #font: 
+  #  text: Lexend Deca # Inter Tight
+  #  code: JetBrains Mono
   features:
     - navigation.tabs
     - navigation.sections
@@ -84,3 +84,5 @@ nav:
       - Instalación de LaTeX con Miktex y TexStudio: latex_install.md
       - Instalación de LaTeX con VSCode y MikTex : latex_vscode.md
 
+extra_css:
+  - stylesheets/extra.css

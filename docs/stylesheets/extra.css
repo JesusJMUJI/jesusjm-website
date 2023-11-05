@@ -1,0 +1,8 @@
+@font-face {
+    font-family: "NameSans";
+    src: url("assets/fonts/NameSansStatic/AT-NameSansText-Regular.Trial.otf") format("opentype");
+  }
+
+:root {
+  --md-text-font: "NameSans"; 
+}
